@@ -1,11 +1,11 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        int m = 20;
+        int oneMile = 20;
         Scanner ticket = new Scanner(System.in);
-        long var_num;
+        long ticketPrice;
         System.out.print("Введите стоимость билета: ");
-        var_num = ticket.nextInt();
-        System.out.print("Вы заработали: " + var_num/m + " миль");
+        ticketPrice = ticket.nextInt();
+        System.out.print("Вы заработали: " + ticketPrice/oneMile + " миль");
     }
 }
